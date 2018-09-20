@@ -1,0 +1,94 @@
+.wrapper {
+  max-width: 1170px;
+	max-height: 100vh;
+	margin: 0 auto;
+	padding: 50px 25px;
+	overflow: hidden;
+}
+
+.header {
+	height: 15vh;
+}
+
+img {
+	display: block;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+// = = = = = = = = = = = = = = = 
+// NAVIGATION STYLES
+// = = = = = = = = = = = = = = = 
+.sliderNav {
+  position: relative;
+  top: calc(65vh - 100px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: .5rem solid #333;
+}
+
+.sliderNav__links--active::before,
+.sliderNav__links--active::after {
+    content: "";
+    position: absolute;
+    top: -4%;
+    width: 0;
+    height: 0;
+    border: solid transparent;
+    pointer-events: none;
+}
+
+.sliderNav__links--active::before {
+    border-top-color: #333;
+    border-width: 3.7rem;
+		margin-left: -3.7rem;
+		left: 50%;
+}
+
+.sliderNav__links--active::after {
+    border-top-color: #fff;
+    border-width: 3rem;
+		margin-left: -3rem;
+		left: 50%;
+}
+
+.sliderNav__links {
+  position: relative;
+  padding: 5rem 0;
+}
+
+.btn {
+  background: none;
+  border: none;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  letter-spacing: .2rem;
+  text-align: center;
+  color: #777;
+  outline: none;
+  transition: color 0.3s linear;
+  &--active {
+		outline: none;
+    color: #000;
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+.activated:hover {
+  outline: none;
+  color: #000;
+}

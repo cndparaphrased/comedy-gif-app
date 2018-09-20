@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link type="image/png" href="assets/favicon.png" rel="icon">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,700|Libre+Baskerville:400i" rel="stylesheet">
+  <link rel="stylesheet" href="public/styles/style.css">
+  <title>Comedy Clapback Tour</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1><a href="index.html">Comedy Clapback Tour</a></h1>
+      <h2>For GIF-ing that perfect comeback</h2>
+    </header>
+
+    <main>
+      <form action="" class="slider">
+        <ul class="sliderContent tvShow">
+          <li class="sliderContent__items">
+            <input type="radio" name="tv" id="arrestedDevelopment" value="arrestedDevelopment">
+            <label for="arrestedDevelopment" class="logos arrestedDevelopment"><span class="visuallyhidden">Arrested Development</span></label>
+          </li>
+        
+          <li class="sliderContent__items">
+            <input type="radio" name="tv" id="brooklynNineNine" value="brooklynNineNine">
+            <label for="brooklynNineNine" class="logos brooklynNineNine"><span class="visuallyhidden">Brooklyn Nine Nine</span></label>
+          </li>
+
+          <li class="sliderContent__items">
+            <input type="radio" name="tv" id="community" value="community">
+            <label for="community" class="logos community">
+              <span class="visuallyhidden">Community</span>
+            </label>
+          </li>
+        
+          <li class="sliderContent__items">
+            <input type="radio" name="tv" id="theOffice" value="theOffice">
+            <label for="theOffice" class="logos theOffice"><span class="visuallyhidden">The Office</span></label>
+          </li>
+
+          <li class="sliderContent__items">
+            <input type="radio" name="tv" id="thirtyRock" value="thirtyRock">
+            <label for="thirtyRock" class="logos thirtyRock"><span class="visuallyhidden">30 Rock</span></label>
+          </li>
+        
+          <li class="sliderContent__items">
+            <input type="radio" name="tv" id="parksAndRec" value="parksAndRec">
+            <label for="parksAndRec" class="logos parksAndRec"><span class="visuallyhidden">Parks and Recreation</span></label>
+          </li>
+        </ul>
+
+        <ul class="sliderContent feeling">
+          <li class="sliderContent__items">
+            <input type="radio" name="feels" id="toughLove" value="toughLove">
+            <label for="toughLove" class="feeling__boxes toughLove">tough<br>love<br>needed</label>
+          </li>
+        
+          <li class="sliderContent__items">
+            <input type="radio" name="feels" id="inspiration" value="inspiration">
+            <label for="inspiration" class="feeling__boxes inspiration">inspiring<br>inspired<br>inspo</label>
+          </li>
+        
+          <li class="sliderContent__items">
+            <input type="radio" name="feels" id="snark" value="snark">
+            <label for="snark" class="feeling__boxes snark">all<br>the<br>snark</label>
+          </li>
+        
+          <li class="sliderContent__items">
+            <input type="radio" name="feels" id="advice" value="advice">
+            <label for="advice" class="feeling__boxes advice">drop<br>some<br>knowledge</label>
+          </li>
+        
+          <li class="sliderContent__items">
+            <input type="radio" name="feels" id="cant" value="cant">
+            <label for="cant" class="feeling__boxes cant">just<br>can't<br>even</label>
+          </li>
+        
+          <li class="sliderContent__items">
+            <input type="radio" name="feels" id="yay" value="yay">
+            <label for="yay" class="feeling__boxes yay">yaas<br>queen<br>yaaaas</label>
+          </li>
+        </ul>
+
+        <ul class="sliderContent results">
+          <li class="sliderContent__items"></li>
+        </ul>
+
+        <ul class="nav">
+          <li class="sliderNav__links sliderNav--tvShow">
+            <input type="button" class="btn btn--tvShow" value="Pick a show" disabled="disabled">
+          </li>
+          <li class="sliderNav__links sliderNav--feeling">
+            <input type="button" class="btn btn--feeling" value="Pick a vibe" disabled="disabled">
+          </li>
+          <li class="sliderNav__links sliderNav--results">
+            <input type="submit" class="btn btn--results" value="Try this" disabled="disabled">
+            <span class="extraText"><span class="or">or</span> <a href="index.html">restart</a></span>
+          </li>
+        </ul>
+      </form>
+    </main>
+  </div>
+  
+  <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+  <script src="public/scripts/main.js"></script>
+</body>
+</html>

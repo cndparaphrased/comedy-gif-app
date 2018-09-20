@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 400;
+    color: #333;
+}
+
+.feeling {
+    font-family: "Libre Baskerville", serif;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+}
+
+.extraText {
+    display: none;
+}
